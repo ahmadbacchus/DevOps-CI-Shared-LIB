@@ -2,6 +2,7 @@
 def parameters = loads "params.groovy"
 
 def call() {
+    parameters()
     cloneRepo()
 }
 
