@@ -7,7 +7,7 @@ def call() {
 
 
 def cloneRepo(){
-    dir("${SL_myCheckoutDir}"){
+    dir("${env.SL_myCheckoutDir}"){
         sh "echo pwd"
     }
 }
