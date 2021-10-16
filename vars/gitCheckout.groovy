@@ -1,5 +1,5 @@
 //Load parametersß
-def loads = "params.groovy"
+def parameters = loads "params.groovy"
 
 def call() {
     loads()
@@ -8,7 +8,7 @@ def call() {
 
 
 def cloneRepo(){
-    dir("${env.SL_myCheckoutDir}"){
+    dir("${SL_myCheckoutDir}"){
         sh "pwd"
     }
 }
