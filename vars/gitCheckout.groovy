@@ -1,5 +1,5 @@
 //Load parametersß
-def parameters() = loads "params.groovy"
+def parameters = loads "params.groovy"
 
 def call() {
     cloneRepo()
