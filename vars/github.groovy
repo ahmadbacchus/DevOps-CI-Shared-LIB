@@ -1,16 +1,14 @@
-
-def myCheckoutDir = "appRepo"
-
-
-
+//Load parametersß
+def loads = "params.groovy"
 
 def call {
     cloneRepo()
 }
 
 
-def cloneRepo(){ß
+def cloneRepo(){
     dir(myCheckoutDir){
-        checkout scm
+        //checkout scm
+        sh "echo pwd"
     }
 }
