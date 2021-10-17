@@ -4,8 +4,6 @@ def call() {
 
 
 def cloneRepo(){
-    dir("${env.SL_myCheckoutDir}"){
-        sh "git tag -l"
-        sh "pwd"
-    }
+    sh "git tag -l"
+    sh "pwd"
 }
