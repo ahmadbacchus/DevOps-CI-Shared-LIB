@@ -1,4 +1,7 @@
 def call() {
+    if (pipelineID == ''){
+        env.pipelineID = UUID.randomUUID().toString()
+    }
     cloneRepo()
     gitLog()
 }
@@ -11,5 +14,5 @@ def cloneRepo(){
 
 
 def gitLog(){
-    sh "git log >> gitLog.txt"
+    sh "git log >> gitLog-" + pipelineID + ".txt"
 }
