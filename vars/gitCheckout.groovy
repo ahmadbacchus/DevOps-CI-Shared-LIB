@@ -4,6 +4,5 @@ def call() {
 
 
 def cloneRepo(){
-    sh "git tag -l"
-    sh "pwd"
+    sh "ls -l"
 }
