@@ -1,5 +1,5 @@
 class utility {
-    static void static main(args) {
+    static void main(String[] args) {
         println "Hello From Utility!"
     }
 }
