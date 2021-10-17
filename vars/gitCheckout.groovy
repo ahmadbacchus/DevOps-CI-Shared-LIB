@@ -1,12 +1,15 @@
 def call() {
     cloneRepo()
+    gitLog()
 }
 
 
 def cloneRepo(){
     //Clone repo here
     checkout scm
-    sh "git tag --list"
-    sh "ls -l"
+}
 
+
+def gitLog(){
+    sh "git logs"
 }
