@@ -1,7 +1,4 @@
 def call() {
-    if ("${env.pipelineID}" == ''){
-        env.pipelineID = UUID.randomUUID().toString()
-    }
     cloneRepo()
     gitLog()
 }
