@@ -6,7 +6,7 @@ def call() {
 def cloneRepo(){
     //Clone repo here
     checkout scm
-    sh "git tag -l"
+    sh "git tag --list"
     sh "ls -l"
 
 }
