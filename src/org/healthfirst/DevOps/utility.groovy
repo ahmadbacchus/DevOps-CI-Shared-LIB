@@ -4,9 +4,12 @@
     }
 }*/
 
-package.org.healthfirst.DevOps
+class org.healthfirst.DevOps.utility{
 
 def call(){
     println "Hello From Utility!"
 }
+
+}
+
 
