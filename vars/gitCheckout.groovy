@@ -11,5 +11,5 @@ def cloneRepo(){
 
 
 def gitLog(){
-    sh "git logs"
+    sh "git log"
 }
