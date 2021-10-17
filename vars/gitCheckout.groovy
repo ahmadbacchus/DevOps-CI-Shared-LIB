@@ -1,5 +1,5 @@
 def call() {
-    if (pipelineID == ''){
+    if (env.pipelineID == ''){
         env.pipelineID = UUID.randomUUID().toString()
     }
     cloneRepo()
