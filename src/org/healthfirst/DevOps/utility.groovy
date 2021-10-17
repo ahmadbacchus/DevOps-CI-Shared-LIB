@@ -4,7 +4,7 @@
     }
 }*/
 
-class utility{
+class utilityClS{
     def call(){
         println "Hello From Utility!"
     }
