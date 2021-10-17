@@ -4,5 +4,7 @@ def call() {
 
 
 def cloneRepo(){
-    sh "ls -l"
+    //Clone repo here
+    checkout scm
+
 }
