@@ -2,7 +2,6 @@ import org.healthfirst.DevOps.*
 
 
 def call() {
-    utility()
     cloneRepo()
     gitLog()
 }
