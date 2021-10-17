@@ -1,3 +1,6 @@
+import org.healthfirst.DevOps.utility
+
+
 def call() {
     cloneRepo()
     gitLog()
