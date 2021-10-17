@@ -4,8 +4,9 @@
     }
 }*/
 
-class utilityClS{
-    def call(){
-        println "Hello From Utility!"
-    }
+package.org.healthfirst.DevOps
+
+def call(){
+    println "Hello From Utility!"
 }
+
